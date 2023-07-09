@@ -1,0 +1,19 @@
+[tool.poetry]
+authors = ["wakame1367 <hotwater1367@gmail.com>"]
+description = ""
+name = "awscost"
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^2.0.2"
+boto3 = "^1.28.1"
+
+[tool.poetry.group.dev.dependencies]
+moto = "^4.1.12"
+pytest = "^7.4.0"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
